@@ -13,3 +13,7 @@ The sounds used in this project were sourced from [freesound.org](https://freeso
 
 ### Favicon
 Favicon by [Flat-icons.com](https://www.iconfinder.com/search?q=music&price=free) on Iconfinder.
+
+### Video Tutorial
+
+The video tutorial **"Make a JavaScript Drum Kit in Vanilla JS!"** used for this project is available on YouTube and was created by the [Wes Bos](https://www.youtube.com/@WesBos) channel. [Click here to watch the tutorial](https://www.youtube.com/watch?v=VuN8qwZoego).
