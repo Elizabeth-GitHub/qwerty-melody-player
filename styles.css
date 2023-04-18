@@ -1,0 +1,10 @@
+ html {
+    background: url("./images/background-cropped.jpg") bottom center;
+    background-size: cover;
+    background-position: top;
+    min-height: 100%;
+ }
+
+
+
+  
