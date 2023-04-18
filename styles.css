@@ -5,6 +5,54 @@
     min-height: 100%;
  }
 
+ .keyboard {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex: 1;
+    align-items: end;
+    justify-content: top;
+    align-items: center;
+    margin-right: 5rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    gap: 1rem;
+ }
+
+ .intro {
+    display: flex;
+    justify-content: center;
+ }
+
+ .keys {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;
+ }
+
+ .key {
+    border: .4rem solid #F2AC29;
+    border-radius: .9rem;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem 0.005rem;
+    transition: all .07s ease;
+    width: 5rem;
+    text-align: center;
+    color: #3B7302;
+    background: #F2F1F0;
+    margin: 0;
+    /*text-shadow: 0 0 .5rem black;*/
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    color: #F20505;
+    text-shadow: 0 0 20px;
+}
+ 
+
 
 
   
