@@ -92,11 +92,20 @@ li:before {
 
 .notes {
    display: none;
+   margin-top: 0;
  }
 
  a, a:visited {
    text-decoration: none;
    color: inherit;
+   margin-bottom: 0;
+ }
+
+ .melody-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
  }
 
 
