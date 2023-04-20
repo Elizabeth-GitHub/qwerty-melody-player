@@ -57,6 +57,49 @@ h1 {
     box-shadow: 0 0 1rem #F29F05;
   }
 
+.library {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 40%;
+   left: 0;
+   transform: translateY(-50%);
+}
+
+h2 {
+   margin-bottom: 0;
+   font-size: 2.25rem;
+   font-style: italic;
+   text-shadow: 0 0 30px;
+   color: #F25C05;
+}
+
+ul {
+   font-weight: 800;
+   font-size: 1.15rem;
+}
+
+li {
+   list-style:none;
+   margin-bottom: 0.25rem;
+}
+
+li:before { 
+   content:'♪'; padding-right:10px
+}
+
+.notes {
+   display: none;
+ }
+
+ a, a:visited {
+   text-decoration: none;
+   color: inherit;
+ }
+
+
 
 
   

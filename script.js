@@ -18,4 +18,19 @@ function playSound(e) {
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
+
+const twinkleNotes = document.getElementById('twinkle-notes');
+twinkleNotes.style.display = 'none';
+console.log(`twinkle-notes display: ${twinkleNotes.style.display}`);
+document.getElementById('twinkle').addEventListener('click', function(e) {
+  console.log('Launching link')
+  e.preventDefault();
+  if (twinkleNotes.style.display === 'none') {
+    console.log('True');
+    twinkleNotes.style.display = 'block';
+  } else {
+    console.log('False');
+    twinkleNotes.style.display = 'none';
+  }
+});
 });
