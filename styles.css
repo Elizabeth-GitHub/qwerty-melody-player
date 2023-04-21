@@ -90,11 +90,6 @@ li:before {
    content:'♪'; padding-right:10px
 }
 
-.notes {
-   display: none;
-   margin-top: 0;
- }
-
  a, a:visited {
    text-decoration: none;
    color: inherit;
@@ -107,8 +102,4 @@ li:before {
    justify-content: center;
    align-items: center;
  }
-
-
-
-
-  
+ 

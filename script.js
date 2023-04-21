@@ -14,14 +14,12 @@ function playSound(e) {
     audio.play();
 }
 
-
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
 
-const twinkleNotes = document.getElementById('twinkle-notes');
+/*const twinkleNotes = document.getElementById('twinkle-notes');
 twinkleNotes.style.display = 'none';
-console.log(`twinkle-notes display: ${twinkleNotes.style.display}`);
 document.getElementById('twinkle').addEventListener('click', function(e) {
   console.log('Launching link')
   e.preventDefault();
@@ -31,6 +29,27 @@ document.getElementById('twinkle').addEventListener('click', function(e) {
   } else {
     console.log('False');
     twinkleNotes.style.display = 'none';
+  }*/
+  function toggleMelodyNotes(melodyId) {
+    const melodyNotes = document.getElementById(`${melodyId}-notes`);
+    console.log(melodyNotes);
+    if (melodyNotes.style.display === 'none') {
+      melodyNotes.style.display = 'block';
+    } else {
+      melodyNotes.style.display = 'none';
+    }
   }
+  
+  document.getElementById('twinkle').addEventListener('click', function(e) {
+    e.preventDefault();
+    toggleMelodyNotes('twinkle');
+  });
+  
+  document.getElementById('row').addEventListener('click', function(e) {
+    e.preventDefault();
+    toggleMelodyNotes('row');
+  });
+
 });
-});
+
+//});
